@@ -5,7 +5,7 @@
         <router-link class="navbar-item" to="/">
           <img src=@/assets/logo.png />
         </router-link>
-        <a class="navbar-burger burger" :class="{ 'is-active': isActive }" @:click="this.isActive = !this.isActive">
+        <a class="navbar-burger burger" :class="{ 'is-active': isActive }" @click="isActive = !isActive">
           <span></span>
           <span></span>
           <span></span>

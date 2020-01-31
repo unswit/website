@@ -1,7 +1,7 @@
 <template>
-  <footer class="footer">
+  <nav class="navbar is-fixed-bottom has-background-info has-text-white	">
     © Copyright 2020 Michael Gribben
-  </footer>
+  </nav>
 </template>
 
 <script>
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped>
-footer {
+nav {
   position: absolute;
   bottom: 0;
   width: 100%;

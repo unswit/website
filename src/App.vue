@@ -14,4 +14,7 @@ export default {
 
 <style lang="scss">
   @import '~bulma/css/bulma.css';
+  #app {
+    margin-bottom: 5rem;
+  }
 </style>
