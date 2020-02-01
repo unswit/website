@@ -12,11 +12,13 @@
           <p class="subtitle is-6">{{ subtitle }}</p>
         </div>
       </div>
-      <div class="content"><p>
+      <div class="content">
         {{ content }}
-        <br>
-        {{ startTime }} - {{ endTime }}
-      </p></div>
+        <br />
+        <strong>
+          {{ footer }}
+        </strong>
+      </div>
     </div>
   </div>
 </template>
@@ -30,11 +32,7 @@ export default {
     imgSrc: String,
     imgAlt: String,
     content: String,
-    startTime: String,
-    endTime: String,
+    footer: String,
   }
 }
 </script>
-
-<style scoped>
-</style>

@@ -7,14 +7,17 @@
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  export default {
+    name: 'app'
+  }
 </script>
 
 <style lang="scss">
   @import '~bulma/css/bulma.css';
   #app {
     margin-bottom: 5rem;
+  }
+  #hero {
+    margin-top: 5rem;
   }
 </style>
